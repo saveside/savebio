@@ -1,0 +1,48 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+theme = 'hugo-coder'
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Save Wilson"
+  info = "UI/UX Designer"
+  description = "Save's Bio"
+  keywords = "blog,developer,personal"
+  avatarurl = "/avatar.png"
+  faviconSVG = "/favicon.png"
+  favicon_32 = "/favicon-32x32.png"
+  favicon_16 = "/favicon.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/saveside/"
+[[params.social]]
+  name = "Mail"
+  icon = "fa fa-at fa-2x"
+  weight = 3
+  url = "mailto:savepersonal@tutanota.com"
